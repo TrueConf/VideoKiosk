@@ -1,3 +1,7 @@
+# TrueConf Kiosk application
+
+![TrueConf Kiosk Screenshot](https://trueconf.com/blog/wp-content/uploads-com/2018/07/animation.gif)
+
 # How to install CallX control in Delphi (Rad Studio)
 
 Main menu → Component → Import component...
