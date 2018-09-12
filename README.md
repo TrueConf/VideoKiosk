@@ -18,4 +18,4 @@ Main menu → Component → Import component...
 
 Done.
 
-Now you can use CallX ActiveX control
+Now you can use The CallX ActiveX control
