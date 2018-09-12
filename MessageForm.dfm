@@ -1,0 +1,65 @@
+object frmMessage: TfrmMessage
+  Left = 0
+  Top = 0
+  AlphaBlend = True
+  AlphaBlendValue = 50
+  BorderStyle = bsNone
+  Caption = 'frmMessage'
+  ClientHeight = 202
+  ClientWidth = 435
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 120
+  TextHeight = 16
+  object lblMessage: TLabel
+    AlignWithMargins = True
+    Left = 50
+    Top = 50
+    Width = 335
+    Height = 102
+    Margins.Left = 50
+    Margins.Top = 50
+    Margins.Right = 50
+    Margins.Bottom = 50
+    Align = alClient
+    Caption = '---'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    WordWrap = True
+    ExplicitWidth = 21
+    ExplicitHeight = 24
+  end
+  object timerShow: TTimer
+    Enabled = False
+    Interval = 200
+    OnTimer = timerShowTimer
+    Left = 136
+    Top = 96
+  end
+  object timerHide: TTimer
+    Enabled = False
+    Interval = 200
+    OnTimer = timerHideTimer
+    Left = 208
+    Top = 96
+  end
+  object timerLife: TTimer
+    Enabled = False
+    OnTimer = timerLifeTimer
+    Left = 288
+    Top = 96
+  end
+end
