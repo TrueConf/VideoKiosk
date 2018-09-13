@@ -21,3 +21,5 @@ Main menu → Component → Import component...
 Done.
 
 Now you can use The CallX ActiveX control
+
+Also see https://sdk.trueconf.com/
