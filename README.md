@@ -1,4 +1,4 @@
-For Delphi 10.1 Berlin
+Video kiosk is an all-in-one solution designed to bring improved customer service. TrueConf offers specialized software that can be easily integrated into existing hardware systems, e.g. ATMs. Video kiosk can also be installed as a separate terminal or a video panel.
 
 # TrueConf Kiosk application
 
